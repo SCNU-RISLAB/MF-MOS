@@ -1,10 +1,13 @@
 #!/bin/bash
 
-dataset=/data1/MotionSeg3d_Dataset/data_odometry_velodyne/dataset
+DatasetPath=DATAROOT
+Seq=08
+DataConfig=./config/labels/semantic-kitti-mos.raw.yaml
+Version=fuse # Version in ["moving", "movable", "fuse"] for predictions
+#PredictionPath=./log/valid/predictions
 
-# -v in ["moving", "movable", "fuse"] for predictions
-python3 utils/visualize_mos.py -d $dataset \
-                               -s 08 \
-                               -c config/labels/semantic-kitti-mos.raw.yaml \
-                               -v fuse \
-                               # -p ./log/valid/predictions
+python3 utils/visualize_mos.py -d $DatasetPath \
+                               -s $Seq \
+                               -c $DataConfig \
+                               -v $Version \
+                               # -p $PredictionPath
