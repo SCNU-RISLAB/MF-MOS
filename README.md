@@ -63,7 +63,7 @@ Check the path in [dist_train.sh](./script/dist_train.sh), and run it to train:
 ```shell
 bash script/dist_train.sh
 ```
-You can change the num of GPUs as well as id to suit your needs.
+You can change the number of GPUs as well as ID to suit your needs.
 #### Train the SIEM
 Once you have completed the first phase of training above, you can continue with SIEM training to get an improved performance.
 
@@ -75,17 +75,17 @@ bash script/train_siem.sh
 ### 📝Validation and Evaluation
 Check the path in [valid.sh](./script/valid.sh) and [evaluate.sh](./script/evaluate.sh).
 
-Then, run them to get the predicting results and IoU in paper separately:
+Then, run them to get the predicted results and IoU in the paper separately:
 ```shell
 bash script/valid.sh
 # evaluation after validation
 bash script/evaluate.sh
 ```
-You can also use our pretrained model which has been provided above to valid its performance.
+You can also use our pre-trained model which has been provided above to validate its performance.
 
 
 ### 👀Visualization
-#### Single frame visualization
+#### Single-frame visualization
 Check the path in [visualize.sh](./script/visualize.sh), and run it to visualize the results in 2D and 3D:
 ```shell
 bash script/visualize.sh
@@ -99,4 +99,4 @@ Check the path in [viz_seqVideo.py](./utils/viz_seqVideo.py), and run it to visu
 
 
 ## 👏Acknowledgment
-This repo is based on [MotionSeg3D](https://github.com/haomo-ai/MotionSeg3D), and we are very grateful for their excellent work.
+This repo is based on MotionSeg3D, LMNet... We are very grateful for their excellent work.
