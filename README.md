@@ -1,11 +1,17 @@
-# MF-MOS: A Motion-Focused Model for Moving Object Segmentation
+# [ICRA2024] MF-MOS: A Motion-Focused Model for Moving Object Segmentation
+
+<div align="center">
+<div>
+    <a href="https://arxiv.org/abs/2401.17023"><img src="http://img.shields.io/badge/cs.CV-arXiv%3A2401.17023-B31B1B.svg"></a>
+  </div>
+</div>
 
 **🎉MF-MOS achieved a leading IoU of **_76.7%_** on [the MOS leaderboard of the SemanticKITTI](https://codalab.lisn.upsaclay.fr/competitions/7088) upon submission, demonstrating the current SOTA performance.**
 ![Leaderboard](./assets/Leaderboard.jpg)
 
 ## 📖How to use
 ### 📦pretrained model
-Our pretrained model (best in validation, with the IoU of **_76.12%_**) can be downloaded from [Google Drive](https://drive.google.com/file/d/1KGPwMr9v9GWdIB0zEGAJ8Wi0k3dvXbZt/view?usp=sharing)
+Our pretrained model (best in validation, with the IoU of **_76.12%_**) can be downloaded from [Google Drive](https://drive.google.com/file/d/1KGPwMr9v9GWdIB0zEGAJ8Wi0k3dvXbZt/view?usp=sharing).
 ### 📚Dataset 
 Download SemanticKITTI dataset from [SemanticKITTI](http://www.semantic-kitti.org/dataset.html#download) (including **Velodyne point clouds**, **calibration data** and **label data**).
 #### Preprocessing
