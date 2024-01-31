@@ -2,12 +2,26 @@
 
 <div align="center">
 <div>
-    <a href="https://arxiv.org/abs/2401.17023"><img src="http://img.shields.io/badge/cs.CV-arXiv%3A2401.17023-B31B1B.svg"></a>
+    <a href="https://arxiv.org/abs/2401.17023"><img src="http://img.shields.io/badge/paper-arXiv.cs.CV%3A2401.17023-B31B1B.svg"></a>
+    <a href="https://www.bilibili.com/video/BV1ZM411Z7rP/?share_source=copy_web&vd_source=902841b9751bc137897f677e1ea56624"><img src="http://img.shields.io/badge/video-bilibili%3AMF--MOS-FF6699.svg"></a>
   </div>
 </div>
 
 **🎉MF-MOS achieved a leading IoU of **_76.7%_** on [the MOS leaderboard of the SemanticKITTI](https://codalab.lisn.upsaclay.fr/competitions/7088) upon submission, demonstrating the current SOTA performance.**
-![Leaderboard](./assets/Leaderboard.jpg)
+
+<p align="center">
+<img src="./assets/Leaderboard.jpg" width="90%">
+</p>
+<b><p align="center" style="margin-top: -20px;">
+The MOS leaderboard
+</b></p>
+
+<p align="center">
+<img src="./assets/Demo.gif" width="90%">
+</p>
+<b><p align="center" style="margin-top: -20px;">
+Video demo
+</b></p>
 
 ## 📖How to use
 ### 📦pretrained model
