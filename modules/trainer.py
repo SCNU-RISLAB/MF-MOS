@@ -504,7 +504,7 @@ class Trainer():
 
                 movable_jacc = self.ls(movable_output, movable_proj_labels)
                 movable_wce = movable_criterion(movable_log_out.double(), movable_proj_labels).float()
-                movable_loss = movable_wce + jacc
+                movable_loss = movable_wce + movable_jacc
 
                 loss = moving_loss + movable_loss
 
