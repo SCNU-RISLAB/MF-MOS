@@ -119,4 +119,5 @@ Check the path in [viz_seqVideo.py](./utils/viz_seqVideo.py), and run it to visu
 
 
 ## 👏Acknowledgment
-This repo is based on MotionSeg3D, LMNet... We are very grateful for their excellent work.
+This repo is based on [MotionSeg3D](https://github.com/haomo-ai/MotionSeg3D) and [LiDAR-MOS](https://github.com/PRBonn/LiDAR-MOS), we are very grateful for their excellent work.
+Besides, excellent works like 4DMOS[[paper](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/mersch2022ral.pdf), [code](https://github.com/PRBonn/4DMOS)] and MapMOS[[paper](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/mersch2023ral.pdf), [code](https://github.com/PRBonn/MapMOS)] have not only demonstrated excellent dynamic object segmentation capabilities on the SemanticKITTI-MOS benchmark but have also exhibited nice generalization abilities on new datasets, which MF-MOS fails to achieve. We appreciate their contributions to MOS and highly recommend people to use their excellent public available code.
