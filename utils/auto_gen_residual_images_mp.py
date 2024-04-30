@@ -158,7 +158,7 @@ if __name__ == '__main__':
 
     all_seq_list = [i for i in range(0, 11)]   # 0-10 for training
     if config['residual_aug']:
-        residual_list = list(set([k * i for i in range(1, 9) for k in range(1, 4)]))
+        residual_list = list(set([1 + k * i for i in range(0, 8) for k in range(1, 4)]))
     else:
         residual_list = [1 * i for i in range(1, 9)]
 
